@@ -30,11 +30,13 @@ public class CodeGuruEX {
 			System.out.println(x);
 		if (Min<0)
 			System.out.println(y);
-		else
+		if (x-y==0)
 			System.out.println(0);
 		
-		
-		
+		int sum=0;
+		sum=1+2+3+4+5+6+7+8+9+10;
+		System.out.println(sum);
+				
 	}
 
 }
