@@ -24,13 +24,14 @@ public class CodeGuruEX {
 		System.out.println("두번째 숫자 입력 :"); 
 		int y=sc.nextInt(); 
 		
-		int c=x-y;
-		if (c>0)
+		int Max=x-y;
+		int Min=x-y;
+		if (Max>0)
 			System.out.println(x);
-		else if (c==0)
-			System.out.println(0);
-		else
+		if (Min<0)
 			System.out.println(y);
+		else
+			System.out.println(0);
 		
 		
 		
